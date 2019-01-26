@@ -1,0 +1,292 @@
+{
+    "Elf-Meta-1":{
+        "core":[
+            "Windwalker",
+            "Elementalist"
+        ],
+        "support":[
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Priest",
+            "Priest",
+            "Priest",
+            "Priest",
+            "Priest"
+        ],
+        "requirement":[
+
+        ]
+    },
+    "Elf-Meta-2":{
+        "core":[
+            "Windwalker",
+            "Elementalist"
+        ],
+        "support":[
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Priest",
+            "Priest",
+            "Priest",
+            "Priest",
+            "Priest",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":"Tinky"
+            }
+        ]
+    },
+    "Elf-Meta-3":{
+        "core":[
+            "Windwalker",
+            "Elementalist"
+        ],
+        "support":[
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":"Icy"
+            }
+        ]
+    },
+    "Elf-Meta-4":{
+        "core":[
+            "Elf Sage",
+            "Elementalist"
+        ],
+        "support":[
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "stage":14000
+            }
+        ]
+    },
+    "Elf-Meta-5":{
+        "core":[
+            "Hippogriff",
+            "Fairy",
+            "Elementalist"
+        ],
+        "support":[
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff"
+        ],
+        "requirement":[
+            {
+                "artifact":"Blunt"
+            }
+        ]
+    },
+    "Orc-Meta-1":{
+        "core":[
+            "Wyvern Rider",
+            "Naga"
+        ],
+        "support":[
+            "Siren",
+            "Siren",
+            "Siren",
+            "Siren",
+            "Siren",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Fairy",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":"Wakong"
+            }
+        ]
+    },
+    "Orc-Meta-2":{
+        "core":[
+            "Wyvern Rider",
+            "Naga"
+        ],
+        "support":[
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Hippogriff",
+            "Hippogriff",
+            "Hippogriff",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":"Seahorse"
+            }
+        ]
+    },
+    "Orc-Meta-3":{
+        "core":[
+            "Wyvern Rider",
+            "Naga"
+        ],
+        "support":[
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Naga",
+            "Winged Knight",
+            "Winged Knight",
+            "Fairy",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":"Hippong"
+            }
+        ]
+    },
+    "Undead-Meta-1":{
+        "core":[
+            "Crow Knight",
+            "Shadow Knight"
+        ],
+        "support":[
+            "Crow Knight",
+            "Crow Knight",
+            "Crow Knight",
+            "Crow Knight",
+            "Crow Knight",
+            "Crow Knight",
+            "Abyss Mage",
+            "Abyss Mage",
+            "Fairy",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":[
+                    "Raven",
+                    "Cat Knight"
+                ]
+            }
+        ]
+    },
+    "Undead-Meta-2":{
+        "core":[
+            "Crow Knight",
+            "Shadow Knight"
+        ],
+        "support":[
+            "Dark Archer",
+            "Bomb Unit",
+            "Abyss Mage",
+            "Death Knight",
+            "Hand of Death",
+            "Black Magic Wizard",
+            "Skeleton Warrior",
+            "Ghost",
+            "Fairy",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":[
+                    "Chesher",
+                    "Abyss Mage"
+                ]
+            },
+            {
+                "tablets":[
+                    {
+                        "Undead High Tech":3
+                    },
+                    {
+                        "Shadow of Death":4
+                    },
+                    {
+                        "Undead Royal Family":3
+                    },
+                    {
+                        "Voice of Darkness":3
+                    }
+                ]
+            }
+        ]
+    },
+    "Undead-Meta-3":{
+        "core":[
+            "Crow Knight",
+            "Shadow Knight"
+        ],
+        "support":[
+            "Abyss Mage",
+            "Abyss Mage",
+            "Abyss Mage",
+            "Dark Elf",
+            "Lich",
+            "Dark Admiral",
+            "Succubus",
+            "Dark Ninja",
+            "Fairy",
+            "Fairy"
+        ],
+        "requirement":[
+            {
+                "pet":[
+                    "Chesher",
+                    "Abyss Mage"
+                ]
+            },
+            {
+                "tablets":[
+                    {
+                        "For the Honor of the Undead":4
+                    },
+                    {
+                        "Guardians of Dark Abyss":3
+                    },
+                    {
+                        "Temptation of the Lich":3
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -69,4 +69,8 @@ def get_priority():
 
 @bp.route('/meta_progression/', methods=['GET', 'POST'])
 def meta_progression():   
-    return render_template('meta_progression.html')
+    metas_url = os.path.join(current_app.root_path, "static/json", "metas.json")
+    metas = json.load(open(metas_url))
+    units_url = os.path.join(current_app.root_path, "static/json", "units.json")
+    units = json.load(open(units_url))
+    return render_template('meta_progression.html', metas=metas, units=units)

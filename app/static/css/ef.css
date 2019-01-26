@@ -327,3 +327,31 @@ td:hover {
 .col-2{
   padding: 0px;
 }
+
+.border-rank-6 {
+    border: 2px solid #BCA45A;
+    background-color: #222222;
+}
+
+.icon-trans-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 6px;
+}
+
+.icon-trans-2 {
+    position: absolute;
+    bottom: 13px;
+    left: 6px;
+}
+
+.icon-trans-3 {
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+}
+
+.unit-container {
+    position: relative;
+    display: inline;
+}

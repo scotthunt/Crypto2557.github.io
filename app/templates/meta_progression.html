@@ -1,9 +1,28 @@
 {% extends 'base.html' %}
 {% block app_content %}
-<img class="meta-img" src="../static/img/meta_progression.png">
+{% set meta=metas['Elf-Meta-1'] %}
+<div class="row super-row">
+{% for key, meta in metas.items() %}
+{% for core in meta["core"] %}
+<div class="unit-container">
+	<img class="border-rank-6" src="../static/{{units[core]['img_sr']}}">
+	<img class="icon-trans-1" src="../static/img/transcend.png">
+	<img class="icon-trans-2" src="../static/img/transcend.png">
+	<img class="icon-trans-3" src="../static/img/transcend.png">
+</div>
+{% endfor %}
+{% for support in meta["support"] %}
+<div class="unit-container">
+	<img class="border-rank-6" src="../static/{{units[support]['img_sr']}}">
+</div>
+{% endfor %}
+{% endfor %}
+</div>
+<!--
 <footer class="page-footer font-medium col-centered">
 	Credit goes to Yobnomekop, Weymouth, Marque, GreatGama, Akki, CheezyBob and dzed. Original figure created by X Trav X.
 </footer>
+-->
 {% endblock %}
 {% block scripts %}
 {{ super() }}
